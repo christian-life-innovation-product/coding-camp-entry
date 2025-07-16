@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1" />
+    <title>Forward Fitness - About Us</title>
+    <!--
+	Name: Yuki Ishii
+    Date: 22-Feb-2018
+	Purpose: Template for Forward Fitness Website
+-->
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <script src="../script/myFunction.js"></script>
+  </head>
+
+  <body>
+    <div id="container">
+      <!--Use a header area for website name or logo-->
+      <header>
+        <a href="../index.html"
+          ><img src="../images/ffc_logo.png" alt="Foward Fitness Club Logo"
+        /></a>
+      </header>
+      <!--Use nav area to add hiperlinks to other pages within the website-->
+      <nav>
+        <ul>
+          <li><a href="../template/template.html" title="Home">Home</a></li>
+          <li><a href="about.html" title="About Us">About Us</a></li>
+          <li><a href="classes.html" title="Classes">Classes</a></li>
+          <li><a href="nutrition.html" title="Nutrition">Nutrition</a></li>
+          <li><a href="contact.html" title="Contact us">Contact us</a></li>
+        </ul>
+      </nav>
+
+      <!--Use main area to add the main content of the webpage-->
+      <main>
+        <div class="video">
+          <video autoplay controls preload="auto">
+            <source src="../media/ffc_vid.mp4" type="video/mp4" />
+            <source src="../media/ffc_vid.ogg" type="video/ogg" />
+            <source src="../media/ffc_vid.webm" type="video/webm" />
+            <p>Your browser does not support this video.</p>
+          </video>
+        </div>
+        <section>
+          <h1>Weights</h1>
+          <img
+            src="../images/equipment1.jpg"
+            alt="Weight Equipment"
+            class="equip"
+          />
+          <p>
+            Our facility includes a weighting training area with several weight
+            options. Build lean muscle with weights and improve your core with
+            weight training.
+          </p>
+
+          <ul class="items">
+            <li>Dumbells</li>
+            <li>Kettle Bell</li>
+            <li>Barbells</li>
+          </ul>
+          <br />
+        </section>
+
+        <section>
+          <h1>Cardio</h1>
+          <img
+            src="../images/equipment2.jpg"
+            alt="Cardio Equipment"
+            class="equip"
+          />
+          <p>
+            Burn far through cardio workouts. If you need to lose 2olds or more,
+            include at least 30 minutes of cardio each day. We have several
+            equipment options for your workout.
+          </p>
+
+          <ul class="items">
+            <li>Treadmills</li>
+            <li>Elliptiacl Machines</li>
+            <li>Exercise Bikes</li>
+          </ul>
+          <br />
+        </section>
+
+        <section>
+          <h1>Personal Training</h1>
+          <img
+            src="../images/equipment3.jpg"
+            alt="Personal Training"
+            class="equip"
+          />
+          <p>
+            Our certified personal trainers work with you one-on-one to help you
+            obtain your fitness goals. Our personal trainers keep you motivated
+            and push you further than you would push yourself. When you feel
+            like you can not do one more rep, they tell you that you can.
+            Personal training has many benefits.
+          </p>
+
+          <ul class="items">
+            <li>Accountability</li>
+            <li>Personalised Programs</li>
+            <li>Consistent Support and Motivation</li>
+          </ul>
+          <br />
+        </section>
+
+        <section class="tablet">
+          <h1>Common Exercises</h1>
+          <p>
+            The following are common exercises that we encourage our clients to
+            do as part of their daily exercise routine.
+          </p>
+
+          <dl>
+            <dt>Burpees</dt>
+            <dd>
+              Burpees are a great full-body exercise to increase your strength
+              and endurance. Begin in a standing position, drop into a squat and
+              extend your hands forwards, kick your feet back and then forward
+              quickly and then jump up from a squatted position.<br />
+              <button onClick="burpees();">See Example</button>
+            </dd>
+
+            <dt>Plank</dt>
+            <dd>
+              Planks build your core strength. To perform a plank, get in a
+              push-up position and rest your forearms on the floor. Hold a
+              position as long as you can.<br />
+              <button onClick="plank();">See Example</button>
+            </dd>
+
+            <dt>Mountain Climber</dt>
+            <dd>
+              Mountain Climbers are a food cardio exercise. Please your hands on
+              the floor in push-up position, then bring one knee up to your
+              chest and then switch as quickly as you can (as though you were
+              climbing a mountain).<br />
+              <button onClick="mtn();">See Example</button>
+            </dd>
+          </dl>
+
+          <p>
+            For more information about how to stay active visit
+            <a
+              href="http://fitness.gov/be-active/ways-to-be-active"
+              target="_blank"
+              >fitness.gov</a
+            >
+          </p>
+        </section>
+      </main>
+
+      <!--Use footer to add webpage footer content-->
+      <footer>
+        <div id="copyright">
+          &copy; Copyright 2018. All right Reserved. <br />
+          <a
+            href="mailto:forwardfitness@club.net?Subject=Hello&body=Nearly friday"
+            >forwardfitness@club.net</a
+          >
+        </div>
+        <div id="social">
+          <p>Connect with us:</p>
+          <p>
+            <a href="https://www.facebook.com/fwdfitclub"
+              ><img src="../images/fblogo.png" alt="Facebook Logo"
+            /></a>
+            <a href="https://twitter.com/fwdfitclub"
+              ><img src="../images/twitterlogo.png" alt="Twitter Logo"
+            /></a>
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
