@@ -1,186 +1,188 @@
 @charset "UTF-8";
 
-body{
-    background: #eee;
-    color: #333;
-    font-family: "Helvetica Neue","ヒラギノ角ゴ Pro W3","メイリオ",sans-serif;
-    font-feature-settings: "pwid";
-    -webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-    letter-spacing: 0.07em;
-    font-size: 16px;
-    line-height: 1.8;
+body {
+  background: #eee;
+  color: #333;
+  font-family: "Helvetica Neue", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  font-feature-settings: "pwid";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.07em;
+  font-size: 16px;
+  line-height: 1.8;
 }
 
 /*    header
 ---------------------------- */
-header{
-    background: #222;
-    width: 100%;
-    height: 100px;
+header {
+  background: #222;
+  width: 100%;
+  height: 100px;
 }
-header h1{
-    color: #fff;
-    font-size: 28px;
-    font-family: 'Montserrat', sans-serif;
-    width: 1000px;
-    height: 100px;
-    line-height: 100px;
-    margin: 0 auto;
+header h1 {
+  color: #fff;
+  font-size: 28px;
+  font-family: "Montserrat", sans-serif;
+  width: 1000px;
+  height: 100px;
+  line-height: 100px;
+  margin: 0 auto;
 }
 
 /*    .first_view
 ---------------------------- */
-.first_view{
-    overflow: hidden;
-    margin-bottom: 70px;
+.first_view {
+  overflow: hidden;
+  margin-bottom: 70px;
 }
-.first_view picture{
-    width: 100%;
-    height: 675px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.first_view picture {
+  width: 100%;
+  height: 675px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.first_view img{
-    width: 100%;
-    height: auto;
+.first_view img {
+  width: 100%;
+  height: auto;
 }
-@media (max-width: 1200px){
-    .first_view img{
-        width: auto;
-        height: 100%;
-    }
+@media (max-width: 1200px) {
+  .first_view img {
+    width: auto;
+    height: 100%;
+  }
 }
 
 /*    main
 ---------------------------- */
-main{
-    width: 1000px;
-    margin: 0 auto 100px;
+main {
+  width: 1000px;
+  margin: 0 auto 100px;
 }
-main h2{
-    font-size: 24px;
-    margin-bottom: 32px;
-    border-left: 5px solid #1b1b1b;
-    padding-left: 17px;
-    height: 30px;
-    line-height: 30px;
+main h2 {
+  font-size: 24px;
+  margin-bottom: 32px;
+  border-left: 5px solid #1b1b1b;
+  padding-left: 17px;
+  height: 30px;
+  line-height: 30px;
 }
-main > p{
-    margin-bottom: 30px;
+main > p {
+  margin-bottom: 30px;
 }
-main > p a{
-    color: #008aff;
+main > p a {
+  color: #008aff;
 }
-.artile_area{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+.article_area {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
-.artile_area article{
-    width: 31.8%;
-    background: #fff;
+.article_area article {
+  width: 31.8%;
+  background: #fff;
 }
-.artile_area article img{
-    width: 100%;
+.article_area article img {
+  width: 100%;
 }
-.text_block{
-    padding: 24px 24px 40px 24px;
+.text_block {
+  padding: 24px 24px 40px 24px;
 }
 .text_box p,
-.text_box li{
-    font-size: 14px;
+.text_box li {
+  font-size: 14px;
 }
-.text_box:first-of-type{
-    margin-bottom: 16px;
+.text_box:first-of-type {
+  margin-bottom: 16px;
 }
 
 /*    footer
 ---------------------------- */
-footer{
-    background: #222;
-    height: 100px;
-    line-height: 100px;
-    color: #fff;
-    text-align: center;
+footer {
+  background: #222;
+  height: 100px;
+  line-height: 100px;
+  color: #fff;
+  text-align: center;
 }
 
 /******************************
 /* media query: 767px
 /*****************************/
-@media (max-width: 767px){
-    *, *::before, *::after{
-        box-sizing: border-box;;
-    }
+@media (max-width: 767px) {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
 
-    /*    header
+  /*    header
     ---------------------------- */
-    header{
-        background: none;
-        position: absolute;
-        top: 32px;
-        left: 0;
-    }
-    header h1{
-        font-size: 20px;
-        width: 100%;
-        height: 20px;
-        line-height: 20px;
-        text-align: center;
-    }
+  header {
+    background: none;
+    position: absolute;
+    top: 32px;
+    left: 0;
+  }
+  header h1 {
+    font-size: 20px;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+  }
 
-    /*    .first_view
+  /*    .first_view
     ---------------------------- */
-    .first_view{
-        margin-bottom: 35px;
-    }
-    .first_view picture{
-        height: 100vh;
-    }
-    .first_view img{
-        width: auto;
-        height: 100vh;
-    }
+  .first_view {
+    margin-bottom: 35px;
+  }
+  .first_view picture {
+    height: 100vh;
+  }
+  .first_view img {
+    width: auto;
+    height: 100vh;
+  }
 
-    /*    main
+  /*    main
     ---------------------------- */
-    main{
-        width: 100%;
-        margin-bottom: 50px;
-        padding: 0 8%;
-    }
-    main h2{
-        font-size: 18px;
-        margin-bottom: 21px;
-        padding-left: 5.079%;
-    }
-    main > p{
-        margin-bottom: 28px;
-    }
-    .artile_area{
-        width: 100%;
-        display: block;
-    }
-    .artile_area article{
-        width: 100%;
-        margin-bottom: 24px;
-    }
-    .artile_area article:last-of-type{
-        margin-bottom: 0;
-    }
-    .text_block{
-        padding: 18px 5.714% 18px;
-    }
-    .text_box:first-of-type{
-        margin-bottom: 15px;
-    }
+  main {
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 0 8%;
+  }
+  main h2 {
+    font-size: 18px;
+    margin-bottom: 21px;
+    padding-left: 5.079%;
+  }
+  main > p {
+    margin-bottom: 28px;
+  }
+  .artile_area {
+    width: 100%;
+    display: block;
+  }
+  .artile_area article {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .artile_area article:last-of-type {
+    margin-bottom: 0;
+  }
+  .text_block {
+    padding: 18px 5.714% 18px;
+  }
+  .text_box:first-of-type {
+    margin-bottom: 15px;
+  }
 
-    /*    footer
+  /*    footer
     ---------------------------- */
-    footer{
-        height: 50px;
-        line-height: 50px;
-        font-size: 10px;
-    }
+  footer {
+    height: 50px;
+    line-height: 50px;
+    font-size: 10px;
+  }
 }
